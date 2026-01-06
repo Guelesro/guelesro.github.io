@@ -12,11 +12,11 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200 shadow-sm">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="Guele s.r.o." className="h-12 md:h-14 bg-white/90 rounded-md px-2 py-1" />
+            <img src={logo} alt="Guele s.r.o." className="h-12 md:h-14" />
           </a>
 
           {/* Desktop Navigation */}
@@ -25,7 +25,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium"
+                className="text-gray-700 hover:text-yellow-600 transition-colors font-medium"
               >
                 {link.label}
               </a>
@@ -41,7 +41,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-foreground p-2"
+            className="md:hidden text-gray-700 p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -55,7 +55,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/80 hover:text-primary transition-colors font-medium py-2"
+                className="text-gray-700 hover:text-yellow-600 transition-colors font-medium py-2"
                 onClick={() => setIsMenuOpen(false)}
               >
                 {link.label}
