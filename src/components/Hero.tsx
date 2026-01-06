@@ -45,22 +45,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-border max-w-2xl mx-auto animate-fade-in" style={{
-          animationDelay: "0.4s"
-        }}>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-primary">15+</div>
-              <div className="text-sm text-muted-foreground mt-1">Rokov skúseností</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-primary">500+</div>
-              <div className="text-sm text-muted-foreground mt-1">Realizácií</div>
-            </div>
-            <div>
-              <div className="text-3xl md:text-4xl font-bold text-primary">100%</div>
-              <div className="text-sm text-muted-foreground mt-1">Spokojnosť</div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>;
