@@ -26,10 +26,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Visual Element */}
-          <div className="relative">
-            
-          </div>
         </div>
       </div>
     </section>;

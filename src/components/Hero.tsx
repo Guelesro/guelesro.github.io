@@ -44,8 +44,6 @@ const Hero = () => {
             </a>
           </div>
 
-          {/* Stats */}
-          
         </div>
       </div>
     </section>;
