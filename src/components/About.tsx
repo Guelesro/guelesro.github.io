@@ -3,7 +3,7 @@ const features = ["Certifikovaní elektrikári s dlhoročnou praxou", "Kvalitné
 const About = () => {
   return <section id="o-nas" className="py-24 bg-card/50">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="max-w-3xl ml-auto">
           {/* Content */}
           <div>
             <span className="inline-block text-primary font-semibold mb-4 tracking-wider uppercase text-sm">
